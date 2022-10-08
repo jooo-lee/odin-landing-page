@@ -4,7 +4,8 @@ body {
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-#hero {
+#hero,
+#header {
     background-color: #1f2937;
     padding: 0px 200px;
 }
@@ -12,7 +13,7 @@ body {
 #header {
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 #header-logo {
@@ -38,4 +39,37 @@ ul {
 li {
     display: flex;
     align-items: center;
+}
+
+#hero {
+    display: flex;
+}
+
+#hero-left,
+#hero-right {
+    flex: 1;
+    margin: 150px 0px;
+}
+
+#subtext, 
+#hero-right {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+#hero-right {
+    background-color: #6D747D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subtext {
+    padding-right: 25px;
 }
