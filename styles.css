@@ -92,3 +92,16 @@ button {
     border: 5px solid #3B82F6;
     border-radius: 15px;
 }
+
+#random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#random-info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 50px 0px;
+}
