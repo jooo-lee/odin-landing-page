@@ -82,7 +82,7 @@ button {
     font-size: inherit;
     font-weight: 550;
     color: #f9faf8;
-    border-radius: 6px;
+    border-radius: 8px;
     padding: 8px 32px;
 }
 
@@ -146,4 +146,32 @@ button {
     font-size: 24px;
     font-weight: 800;
     margin-right: 30px;
+}
+
+#call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+#call-to-action-subcontainer {
+    border-radius: 8px;
+    background-color: #3882F6;
+    margin: 100px 0px;
+    padding: 50px 130px;
+    display: flex;
+    gap: 120px;
+}
+
+#call-to-action-button {
+    border: 2px solid #f9faf8;
+}
+
+#call-to-action-main-text {
+    font-size: 22px;
+    font-weight: 600;
+    color: #f9faf8;
+}
+
+#call-to-action-subtext {
+    color: #E5E7EB;
 }
